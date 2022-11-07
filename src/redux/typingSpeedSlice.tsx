@@ -15,7 +15,7 @@ export const typingSpeedSlice = createSlice({
     wordIndex: 0,
     time: 60,
     start: false,
-    timer: new Date(),
+    timer: '',
     correctedCharactersPerMinute: 0,
     correctEntries: 0,
     unCorrectEntries: 0,
@@ -33,7 +33,7 @@ export const typingSpeedSlice = createSlice({
     },
     setGameStart: (state) => {
       state.start = true;
-      state.timer = new Date()
+      state.timer = new Date().toString()
     },
     setInputText: (state, action) => {
       const text = action.payload.trim();
@@ -73,12 +73,19 @@ export const typingSpeedSlice = createSlice({
       const currentChar = current[state.selectedLanguage][state.charIndex];
 
       const charPress = action.payload.trim();
+
       if (charPress === currentChar) {
         state.correctEntries++;
-      } else {
+        state.charIndex++;
+      } else if (charPress === 'Backspace') {
+        if (state.inputText.trim() !== '') {
+          state.charIndex--;
+        }
+      }
+      else {
+        state.charIndex++;
         state.unCorrectEntries++;
       }
-      state.charIndex++;
 
     },
     setReplay: () => {

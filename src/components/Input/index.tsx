@@ -28,12 +28,15 @@ function Input() {
     if (e.keyCode === 32 && inputText) {
       dispatch(setSpacePress());
     }
-    else if (e.keyCode === 8 || e.keyCode === 46) {
-      e.preventDefault();
-    }
-    else if (/^[a-z0-9]$/i.test(e.key)) {
+    else {
       dispatch(setCharPress(e.key));
     }
+    // else if (e.keyCode === 8 || e.keyCode === 46) {
+    //   e.preventDefault();
+    // }
+    // else if (/^[a-z0-9]$/i.test(e.key)) {
+    //   dispatch(setCharPress(e.key));
+    // }
   };
 
   return (

@@ -39,17 +39,19 @@ function Clock() {
                 )
             })
 
+            const base = 'Corrected CPM: <b>' + correctEntriesOfCorrectWords + '</b> (that is ' + Math.round(correctEntriesOfCorrectWords / 5) + ' WPM)</br></br>' +
+                'In reality, you typed ' + (correctEntries + unCorrectEntries) + ' CPM, but you made ' + unCorrectEntries + ' mistakes, which were not counted in the corrected scores.</br></br>' +
+                'Correct Entries: <b>' + correctEntries + '</b></br>' +
+                'Incorrect Entries: <b>' + unCorrectEntries + '</b></br>' +
+                'Total Entries: <b>' + totalEntries + '</b></br>' +
+                'Accuracy: <b>' + accurancy + '%</b></br></br>' +
+                'Total Time: <b>' + Math.round(time + 1) + ' sec</b></br></br>';
+
+            const text = (wrongWord) ? (base + 'Your mistakes were:</br>' + wrongWords.join("") + '</br>') : base;
+
             Swal.fire({
                 title: `Words: ✅ ${correctWord} 🚫 ${wrongWord}`,
-                html:
-                    'Corrected CPM: <b>' + correctEntriesOfCorrectWords + '</b> (that is ' + Math.round(correctEntriesOfCorrectWords / 5) + ' WPM)</br></br>' +
-                    'In reality, you typed ' + (correctEntries + unCorrectEntries) + ' CPM, but you made ' + unCorrectEntries + ' mistakes, which were not counted in the corrected scores.</br></br>' +
-                    'Correct Entries: <b>' + correctEntries + '</b></br>' +
-                    'Incorrect Entries: <b>' + unCorrectEntries + '</b></br>' +
-                    'Total Entries: <b>' + totalEntries + '</b></br>' +
-                    'Accuracy: <b>' + accurancy + '%</b></br></br>' +
-                    'Total Time: <b>' + Math.round(time + 1) + ' sec</b></br></br>' +
-                    'Your mistakes were:</br>' + wrongWords.join("") + '</br>'
+                html: text
             }).then((confirmButton: any) => {
                 if (confirmButton.value) {
                     dispatch(setReplay());
