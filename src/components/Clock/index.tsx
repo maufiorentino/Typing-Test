@@ -1,16 +1,9 @@
 import React from "react";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
-import styled from "styled-components";
 import { useSelector, useDispatch } from "react-redux";
 import { setReplay } from "../../redux/typingSpeedSlice";
 import { RootState } from '../../redux/store';
 
-const TimerWrapper = styled.div`
-  position: absolute;
-  top: 26%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-`;
 
 function Clock() {
     const time = useSelector((state: RootState) => state.typingSpeed.time);
@@ -54,7 +47,7 @@ function Clock() {
                     'Correct Entries: <b>' + correctEntries + '</b></br>' +
                     'Incorrect Entries: <b>' + unCorrectEntries + '</b></br>' +
                     'Total Entries: <b>' + totalEntries + '</b></br>' +
-                    'Accurancy: <b>' + accurancy + '%</b></br></br>' +
+                    'Accuracy: <b>' + accurancy + '%</b></br></br>' +
                     'Total Time: <b>' + Math.round(time + 1) + ' sec</b></br></br>' +
                     'Your mistakes were:</br>' + wrongWords.join("") + '</br>'
             }).then((confirmButton: any) => {
@@ -74,21 +67,27 @@ function Clock() {
 
     return (
         <div className="flex items-center justify-center">
-            <div>
-                <TimerWrapper>
-                    <CountdownCircleTimer
-                        key={time}
-                        isPlaying={start === true ? true : false}
-                        duration={time}
-                        colors={["#008000", "#F7B801", "#008000", "#F7B801"]}
-                        colorsTime={[7, 5, 2, 0]}
-                        size={120}
-                    >
-                        {renderTime}
-                    </CountdownCircleTimer>
-                </TimerWrapper>
+            <div style={{
+                marginTop: '35px',
+                display: 'block',
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                width: '50 %'
+            }}>
+
+                <CountdownCircleTimer
+                    key={time}
+                    isPlaying={start === true ? true : false}
+                    duration={time}
+                    colors={["#008000", "#F7B801", "#008000", "#F7B801"]}
+                    colorsTime={[7, 5, 2, 0]}
+                    size={120}
+                >
+                    {renderTime}
+                </CountdownCircleTimer>
+
             </div>
-        </div>
+        </div >
     );
 }
 

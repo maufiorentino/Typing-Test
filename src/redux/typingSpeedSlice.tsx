@@ -81,20 +81,8 @@ export const typingSpeedSlice = createSlice({
       state.charIndex++;
 
     },
-    setReplay: (state) => {
-      state.inputText = "";
-      state.correctWord = 0;
-      state.wrongWord = 0;
-      state.time = 60;
-      state.vocabulary = mix_words(state.vocabulary);
-      state.wordIndex = 0;
-      state.start = false;
-      state.correctedCharactersPerMinute = 0;
-      state.correctEntries = 0;
-      state.unCorrectEntries = 0;
-      state.charIndex = 0;
-      state.correctEntriesOfCorrectWords = 0;
-      state.uncorrectWords = [{ wordToDigit: '', wrongWord: '' }]
+    setReplay: () => {
+      window.location.reload();
     }
   },
 });

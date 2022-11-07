@@ -35,7 +35,7 @@ function TextArea() {
   const words = useSelector((state) => state.typingSpeed.vocabulary);
 
   return (
-    <div className="flex items-center justify-center mt-40 overflow-hidden h-48 p-2">
+    <div className="flex items-center justify-center mt-10 overflow-hidden h-48 p-2">
       <div className=" border-yellow-500 border-4  w-1/2 h-full text-25xl py-2 overflow-hidden">
         {words.map((letter, index) => {
           return (
