@@ -1,0 +1,790 @@
+{
+    "words": [
+        {
+            "id": 1,
+            "english": "account",
+            "spanish": "cuenta",
+            "italian": "account"
+        },
+        {
+            "id": 2,
+            "english": "act",
+            "spanish": "actuar",
+            "italian": "atto"
+        },
+        {
+            "id": 3,
+            "english": "addition",
+            "spanish": "suma",
+            "italian": "somma"
+        },
+        {
+            "id": 3,
+            "english": "adjustment",
+            "spanish": "arreglo",
+            "italian": "regolazione"
+        },
+        {
+            "id": 4,
+            "english": "advertisement",
+            "spanish": "anuncio",
+            "italian": "avvertimento"
+        },
+        {
+            "id": 5,
+            "english": "agreement",
+            "spanish": "acuerdo",
+            "italian": "accordo"
+        },
+        {
+            "id": 6,
+            "english": "air",
+            "spanish": "aire",
+            "italian": "aria"
+        },
+        {
+            "id": 7,
+            "english": "amount",
+            "spanish": "monto",
+            "italian": "quantita"
+        },
+        {
+            "id": 8,
+            "english": "amusement",
+            "spanish": "diversion",
+            "italian": "divertimento"
+        },
+        {
+            "id": 9,
+            "english": "animal",
+            "spanish": "animal",
+            "italian": "animale"
+        },
+        {
+            "id": 10,
+            "english": "answer",
+            "spanish": "respuesta",
+            "italian": "risposta"
+        },
+        {
+            "id": 11,
+            "english": "apparatus",
+            "spanish": "aparato",
+            "italian": "apparato"
+        },
+        {
+            "id": 12,
+            "english": "approval",
+            "spanish": "arpobacion",
+            "italian": "approvazione"
+        },
+        {
+            "id": 13,
+            "english": "argument",
+            "spanish": "argumento",
+            "italian": "argomento"
+        },
+        {
+            "id": 14,
+            "english": "art",
+            "spanish": "arte",
+            "italian": "arte"
+        },
+        {
+            "id": 15,
+            "english": "attack",
+            "spanish": "ataque",
+            "italian": "attacco"
+        },
+        {
+            "id": 16,
+            "english": "attempt",
+            "spanish": "intento",
+            "italian": "tentativo"
+        },
+        {
+            "id": 17,
+            "english": "attention",
+            "spanish": "atencion",
+            "italian": "attenzione"
+        },
+        {
+            "id": 18,
+            "english": "attraction",
+            "spanish": "actracion",
+            "italian": "attrazione"
+        },
+        {
+            "id": 19,
+            "english": "authority",
+            "spanish": "autoridad",
+            "italian": "autorita"
+        },
+        {
+            "id": 20,
+            "english": "back",
+            "spanish": "atras",
+            "italian": "indietro"
+        },
+        {
+            "id": 21,
+            "english": "balance",
+            "spanish": "balance",
+            "italian": "bilancio"
+        },
+        {
+            "id": 22,
+            "english": "base",
+            "spanish": "base",
+            "italian": "base"
+        },
+        {
+            "id": 23,
+            "english": "behavior",
+            "spanish": "atras",
+            "italian": "indietro"
+        },
+        {
+            "id": 24,
+            "english": "belief",
+            "spanish": "creencia",
+            "italian": "credenza"
+        },
+        {
+            "id": 25,
+            "english": "birth",
+            "spanish": "nacimiento",
+            "italian": "nascita"
+        },
+        {
+            "id": 26,
+            "english": "bit",
+            "spanish": "poco",
+            "italian": "poco"
+        },
+        {
+            "id": 27,
+            "english": "bite",
+            "spanish": "morder",
+            "italian": "mordere"
+        },
+        {
+            "id": 28,
+            "english": "blood",
+            "spanish": "sangre",
+            "italian": "sangue"
+        },
+        {
+            "id": 29,
+            "english": "blow",
+            "spanish": "explotar",
+            "italian": "esplodere"
+        },
+        {
+            "id": 30,
+            "english": "body",
+            "spanish": "cuerpo",
+            "italian": "corpo"
+        },
+        {
+            "id": 31,
+            "english": "brass",
+            "spanish": "laton",
+            "italian": "ottone"
+        },
+        {
+            "id": 32,
+            "english": "bread",
+            "spanish": "pan",
+            "italian": "pane"
+        },
+        {
+            "id": 33,
+            "english": "breath",
+            "spanish": "aliento",
+            "italian": "respiro"
+        },
+        {
+            "id": 34,
+            "english": "brother",
+            "spanish": "hermano",
+            "italian": "fratello"
+        },
+        {
+            "id": 35,
+            "english": "building",
+            "spanish": "edificio",
+            "italian": "edificio"
+        },
+        {
+            "id": 36,
+            "english": "burn",
+            "spanish": "quemar",
+            "italian": "bruciare"
+        },
+        {
+            "id": 37,
+            "english": "burst",
+            "spanish": "rafaga",
+            "italian": "scoppiare"
+        },
+        {
+            "id": 38,
+            "english": "business",
+            "spanish": "business",
+            "italian": "business"
+        },
+        {
+            "id": 39,
+            "english": "butter",
+            "spanish": "mantequilla",
+            "italian": "burro"
+        },
+        {
+            "id": 40,
+            "english": "canvas",
+            "spanish": "lienzo",
+            "italian": "tela"
+        },
+        {
+            "id": 41,
+            "english": "care",
+            "spanish": "cuidado",
+            "italian": "cura"
+        },
+        {
+            "id": 42,
+            "english": "cause",
+            "spanish": "causa",
+            "italian": "causa"
+        },
+        {
+            "id": 43,
+            "english": "chalk",
+            "spanish": "tiza",
+            "italian": "gesso"
+        },
+        {
+            "id": 44,
+            "english": "chance",
+            "spanish": "chance",
+            "italian": "chance"
+        },
+        {
+            "id": 45,
+            "english": "change",
+            "spanish": "cambio",
+            "italian": "cambio"
+        },
+        {
+            "id": 46,
+            "english": "cloth",
+            "spanish": "tela",
+            "italian": "stoffa"
+        },
+        {
+            "id": 47,
+            "english": "coal",
+            "spanish": "carbon",
+            "italian": "carbone"
+        },
+        {
+            "id": 48,
+            "english": "color",
+            "spanish": "color",
+            "italian": "colore"
+        },
+        {
+            "id": 49,
+            "english": "comfort",
+            "spanish": "comfort",
+            "italian": "comfort"
+        },
+        {
+            "id": 50,
+            "english": "committee",
+            "spanish": "comite",
+            "italian": "comitato"
+        },
+        {
+            "id": 51,
+            "english": "company",
+            "spanish": "compania",
+            "italian": "compagnia"
+        },
+        {
+            "id": 52,
+            "english": "comparison",
+            "spanish": "comparacion",
+            "italian": "confronto"
+        },
+        {
+            "id": 53,
+            "english": "competition",
+            "spanish": "competicion",
+            "italian": "competizione"
+        },
+        {
+            "id": 54,
+            "english": "condition",
+            "spanish": "condicion",
+            "italian": "condizione"
+        },
+        {
+            "id": 55,
+            "english": "connection",
+            "spanish": "conexion",
+            "italian": "connessione"
+        },
+        {
+            "id": 56,
+            "english": "control",
+            "spanish": "control",
+            "italian": "controllo"
+        },
+        {
+            "id": 57,
+            "english": "cook",
+            "spanish": "cocinero",
+            "italian": "cucinare"
+        },
+        {
+            "id": 58,
+            "english": "copper",
+            "spanish": "cobre",
+            "italian": "rame"
+        },
+        {
+            "id": 59,
+            "english": "copy",
+            "spanish": "copia",
+            "italian": "copia"
+        },
+        {
+            "id": 60,
+            "english": "cork",
+            "spanish": "corcho",
+            "italian": "sughero"
+        },
+        {
+            "id": 61,
+            "english": "cotton",
+            "spanish": "algodon",
+            "italian": "cotone"
+        },
+        {
+            "id": 62,
+            "english": "cough",
+            "spanish": "tos",
+            "italian": "tosse"
+        },
+        {
+            "id": 63,
+            "english": "country",
+            "spanish": "pais",
+            "italian": "paese"
+        },
+        {
+            "id": 64,
+            "english": "cover",
+            "spanish": "cobertura",
+            "italian": "copertura"
+        },
+        {
+            "id": 65,
+            "english": "crack",
+            "spanish": "crack",
+            "italian": "crack"
+        },
+        {
+            "id": 66,
+            "english": "credit",
+            "spanish": "credito",
+            "italian": "credito"
+        },
+        {
+            "id": 67,
+            "english": "crime",
+            "spanish": "crimen",
+            "italian": "crimine"
+        },
+        {
+            "id": 68,
+            "english": "crush",
+            "spanish": "especial",
+            "italian": "schiacciare"
+        },
+        {
+            "id": 69,
+            "english": "cry",
+            "spanish": "llorar",
+            "italian": "piangere"
+        },
+        {
+            "id": 70,
+            "english": "current",
+            "spanish": "corriente",
+            "italian": "corrente"
+        },
+        {
+            "id": 71,
+            "english": "curve",
+            "spanish": "curvado",
+            "italian": "curvo"
+        },
+        {
+            "id": 72,
+            "english": "damage",
+            "spanish": "dano",
+            "italian": "danno"
+        },
+        {
+            "id": 73,
+            "english": "danger",
+            "spanish": "peligro",
+            "italian": "pericolo"
+        },
+        {
+            "id": 74,
+            "english": "daughter",
+            "spanish": "hija",
+            "italian": "figlia"
+        },
+        {
+            "id": 75,
+            "english": "day",
+            "spanish": "dia",
+            "italian": "giorno"
+        },
+        {
+            "id": 76,
+            "english": "death",
+            "spanish": "muerte",
+            "italian": "morte"
+        },
+        {
+            "id": 77,
+            "english": "debt",
+            "spanish": "deuda",
+            "italian": "debito"
+        },
+        {
+            "id": 78,
+            "english": "decision",
+            "spanish": "decision",
+            "italian": "decisione"
+        },
+        {
+            "id": 79,
+            "english": "degree",
+            "spanish": "grado",
+            "italian": "grado"
+        },
+        {
+            "id": 80,
+            "english": "design",
+            "spanish": "design",
+            "italian": "design"
+        },
+        {
+            "id": 81,
+            "english": "desire",
+            "spanish": "deseo",
+            "italian": "desiderio"
+        },
+        {
+            "id": 82,
+            "english": "destruction",
+            "spanish": "distruccion",
+            "italian": "distruzione"
+        },
+        {
+            "id": 83,
+            "english": "detail",
+            "spanish": "detaille",
+            "italian": "dettaglio"
+        },
+        {
+            "id": 84,
+            "english": "development",
+            "spanish": "desarollo",
+            "italian": "sviluppo"
+        },
+        {
+            "id": 85,
+            "english": "digestion",
+            "spanish": "digestion",
+            "italian": "digestione"
+        },
+        {
+            "id": 86,
+            "english": "direction",
+            "spanish": "direccion",
+            "italian": "indirizzo"
+        },
+        {
+            "id": 87,
+            "english": "discovery",
+            "spanish": "descubierta",
+            "italian": "scoperta"
+        },
+        {
+            "id": 88,
+            "english": "discussion",
+            "spanish": "discussion",
+            "italian": "discussione"
+        },
+        {
+            "id": 89,
+            "english": "disease",
+            "spanish": "enfermedad",
+            "italian": "patologia"
+        },
+        {
+            "id": 90,
+            "english": "disgust",
+            "spanish": "disgusto",
+            "italian": "disgusto"
+        },
+        {
+            "id": 91,
+            "english": "distance",
+            "spanish": "distancia",
+            "italian": "distanza"
+        },
+        {
+            "id": 92,
+            "english": "distribution",
+            "spanish": "distribuccion",
+            "italian": "distribuzione"
+        },
+        {
+            "id": 93,
+            "english": "division",
+            "spanish": "division",
+            "italian": "divisione"
+        },
+        {
+            "id": 94,
+            "english": "doubt",
+            "spanish": "duda",
+            "italian": "dubbio"
+        },
+        {
+            "id": 95,
+            "english": "drink",
+            "spanish": "drink",
+            "italian": "drink"
+        },
+        {
+            "id": 96,
+            "english": "driving",
+            "spanish": "manejar",
+            "italian": "guidare"
+        },
+        {
+            "id": 97,
+            "english": "dust",
+            "spanish": "polvo",
+            "italian": "polvere"
+        },
+        {
+            "id": 98,
+            "english": "earth",
+            "spanish": "tierra",
+            "italian": "terra"
+        },
+        {
+            "id": 99,
+            "english": "edge",
+            "spanish": "borde",
+            "italian": "bordo"
+        },
+        {
+            "id": 100,
+            "english": "education",
+            "spanish": "educaccion",
+            "italian": "educazione"
+        },
+        {
+            "id": 101,
+            "english": "effect",
+            "spanish": "efecto",
+            "italian": "effetto"
+        },
+        {
+            "id": 102,
+            "english": "end",
+            "spanish": "final",
+            "italian": "fine"
+        },
+        {
+            "id": 103,
+            "english": "error",
+            "spanish": "error",
+            "italian": "errore"
+        },
+        {
+            "id": 104,
+            "english": "event",
+            "spanish": "evento",
+            "italian": "evento"
+        },
+        {
+            "id": 105,
+            "english": "example",
+            "spanish": "ejemplo",
+            "italian": "esempio"
+        },
+        {
+            "id": 106,
+            "english": "exchange",
+            "spanish": "cambio",
+            "italian": "cambio"
+        },
+        {
+            "id": 107,
+            "english": "existence",
+            "spanish": "esistencia",
+            "italian": "esistenza"
+        },
+        {
+            "id": 108,
+            "english": "expansion",
+            "spanish": "expancion",
+            "italian": "espanzione"
+        },
+        {
+            "id": 109,
+            "english": "experience",
+            "spanish": "experiencia",
+            "italian": "esperienza"
+        },
+        {
+            "id": 110,
+            "english": "expert",
+            "spanish": "experto",
+            "italian": "esperto"
+        },
+        {
+            "id": 111,
+            "english": "fact",
+            "spanish": "facto",
+            "italian": "fatto"
+        },
+        {
+            "id": 112,
+            "english": "fall",
+            "spanish": "otono",
+            "italian": "autunno"
+        },
+        {
+            "id": 113,
+            "english": "family",
+            "spanish": "familia",
+            "italian": "famiglia"
+        },
+        {
+            "id": 114,
+            "english": "father",
+            "spanish": "padre",
+            "italian": "padre"
+        },
+        {
+            "id": 115,
+            "english": "fear",
+            "spanish": "miedo",
+            "italian": "paura"
+        },
+        {
+            "id": 116,
+            "english": "feeling",
+            "spanish": "feeling",
+            "italian": "feeling"
+        },
+        {
+            "id": 117,
+            "english": "fiction",
+            "spanish": "fincion",
+            "italian": "finzione"
+        },
+        {
+            "id": 118,
+            "english": "field",
+            "spanish": "campo",
+            "italian": "campo"
+        },
+        {
+            "id": 119,
+            "english": "fight",
+            "spanish": "lucha",
+            "italian": "lotta"
+        },
+        {
+            "id": 120,
+            "english": "fire",
+            "spanish": "fuego",
+            "italian": "fuoco"
+        },
+        {
+            "id": 121,
+            "english": "flame",
+            "spanish": "flama",
+            "italian": "fiamma"
+        },
+        {
+            "id": 122,
+            "english": "flight",
+            "spanish": "vuelo",
+            "italian": "volo"
+        },
+        {
+            "id": 123,
+            "english": "flower",
+            "spanish": "flor",
+            "italian": "fiore"
+        },
+        {
+            "id": 124,
+            "english": "fold",
+            "spanish": "doblar",
+            "italian": "piega"
+        },
+        {
+            "id": 125,
+            "english": "food",
+            "spanish": "comida",
+            "italian": "cibo"
+        },
+        {
+            "id": 126,
+            "english": "force",
+            "spanish": "fuerza",
+            "italian": "forza"
+        },
+        {
+            "id": 127,
+            "english": "form",
+            "spanish": "form",
+            "italian": "form"
+        },
+        {
+            "id": 128,
+            "english": "friend",
+            "spanish": "amigo",
+            "italian": "amico"
+        },
+        {
+            "id": 129,
+            "english": "front",
+            "spanish": "fronte",
+            "italian": "fronte"
+        },
+        {
+            "id": 130,
+            "english": "fruit",
+            "spanish": "fruta",
+            "italian": "frutta"
+        }
+    ]
+}
